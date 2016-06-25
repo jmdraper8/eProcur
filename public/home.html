@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <!-- Title -->
-    <title>eProcur</title>
+	<title>eProcur</title>
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
@@ -28,168 +28,195 @@
   <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
 
   <!-- Bootstrap core CSS -->
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <meta name="theme-color" content="#ffffff">    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <style type="text/css">
-    body {
-    /*        background-color: #f0f0f2;*/
-        margin: 0;
-        padding: 0;
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-    .white {
-      color: #ffffff;
-    }
-    #title {
-      margin-top: 10px;
-    }
+	<style type="text/css">
+	body {
+	/*        background-color: #f0f0f2;*/
+		margin: 0;
+		padding: 0;
+		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	.white {
+	  color: #ffffff;
+	}
+	#title {
+	  margin-top: 10px;
+	}
 
-    #background-image {
-        background-image: url("/images/brick-background.jpg");
-        height: 600px;
-        width: 100%;
-        background-size: cover; 
-    }
+	#background-image {
+		background-image: url("/images/brick-background.jpg");
+		height: 600px;
+		width: 100%;
+		background-size: cover; 
+	}
 
-    .topContainer {
-        position: relative;
-    }
-    #topRow {
-        margin-top: 100px;
-        text-align: center;
-        color: white;
+	#customer-image {
+		background-image: url("/images/customers.jpg");
+		height: 600px;
+		width: 100%;
+		background-size: cover; 
+	}
+
+	.topContainer {
+		position: relative;
+	}
+	#topRow {
+		margin-top: 100px;
+		text-align: center;
+		color: white;
 /*        text-shadow: 1px 1px #000000;*/
 
-    }
+	}
 
-    #topRow h1 {
-        font-size: 300%; 
+	#topRow h1 {
+		font-size: 300%; 
 
-    }
+	}
 
-    #topRow h2 {
-        font-size: 160%;
+	#topRow h2 {
+		font-size: 160%;
 
-    }
+	}
 
-    .marginTop {
-        margin-top: 20px;
-    }
-    .marginBottom {
-        margin-bottom: 30px;
-    }
-    </style>
+	.marginTop {
+		margin-top: 20px;
+	}
+	.marginBottom {
+		margin-bottom: 30px;
+	}
+	</style>
 
 </head>
 
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <img src="/images/title-logo.gif" id="title" alt="Title & Logo" height="30">
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">eNegotiation</a></li>
-                <li><a href="#">eRFX</a></li>
-                <li><a href="#">eDisposals</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Contract Management</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Vendor Management</a></li>
-              </ul>
-            <li><a href="#div2">Services</a></li>
-            <li><a href="#div3">Customers</a></li>
-            <li class="dropdown">
-                <a href="div4" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Case Studies<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Finance</a></li>
-                <li><a href="#">Construction</a></li>
-                <li><a href="#">Utilities</a></li>
-                <li><a href="#">Telecommunications</a></li>
-                <li><a href="#">Consumer Goods</a></li>
-              </ul>
-            <li><a href="#div3">Engagement Model</a></li>
-          </ul>
-    </nav>
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <img src="/images/title-logo.gif" id="title" alt="Title & Logo" height="30">
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+		<ul class="nav navbar-nav">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">eNegotiation</a></li>
+				<li><a href="#">eRFX</a></li>
+				<li><a href="#">eDisposals</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Contract Management</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Vendor Management</a></li>
+			  </ul>
+			<li><a href="#div2">Services</a></li>
+			<li><a href="#div3">Customers</a></li>
+			<li class="dropdown">
+				<a href="div4" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Case Studies<span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">Finance</a></li>
+				<li><a href="#">Construction</a></li>
+				<li><a href="#">Utilities</a></li>
+				<li><a href="#">Telecommunications</a></li>
+				<li><a href="#">Consumer Goods</a></li>
+			  </ul>
+			<li><a href="#div3">Engagement Model</a></li>
+		  </ul>
+	</nav>
 
-    <div class="container contentContainer" id="background-image">
-          <div class="col-md-6 col-md-offset-3 topContainer" id="topRow">
-            <h1>Sourcing Simplified</h1>
-            <h2 class="lead">From its genesis as a building and construction procurement tool, (which the name BoB or Brick on Brick came from) has grown into a full function negotiation suite.</h2>
+	<div class="container contentContainer" id="background-image">
+		  <div class="col-md-6 col-md-offset-3 topContainer" id="topRow">
+			<h1>Sourcing Simplified</h1>
+			<h2 class="lead">From its genesis as a building and construction procurement tool, (which the name BoB or Brick on Brick came from) has grown into a full function negotiation suite.</h2>
 
-            <h2 class="lead">Covering the electronic delivery of RFQ/RFI/RFP (or simply “eRFx”), reverse auctions and forward auctions; BoB eProcure has the ability to automate procurement selection and negation practices for any business big or small.  To date BoB eProcure has mediated over $2 billion of purchase decisions.</h2>
+			<h2 class="lead">Covering the electronic delivery of RFQ/RFI/RFP (or simply “eRFx”), reverse auctions and forward auctions; BoB eProcure has the ability to automate procurement selection and negation practices for any business big or small.  To date BoB eProcure has mediated over $2 billion of purchase decisions.</h2>
 
-            <h2 class="bold lead marginTop">Interested? Request a Demo!</h2>
+			<h2 class="bold lead marginTop">Interested? Request a Demo!</h2>
 
-            <form class="marginTop">
-              <div class="input-group">
-                <span class="input-group-addon">@</span>
+			<form class="marginTop">
+			  <div class="input-group">
+				<span class="input-group-addon">@</span>
 
-                <input type="email" class="form-control" placeholder="Your email" />
-              </div>
-              <input type="submit" class="btn btn-success btn-lg marginTop">
-            </form>
-          </div>
-      </div>
+				<input type="email" class="form-control" placeholder="Your email" />
+			  </div>
+			  <input type="submit" class="btn btn-success btn-lg marginTop">
+			</form>
+		  </div>
+	  </div>
 
-      <div class="container contentContainer">
+	  <div class="container contentContainer">
+		<div class="row center">
+			<h1 class="center title">The Three Pillars</h1> 
+		</div>
 
-          <div class="row center">
-            <h1 class="center title">The Three Pillars</h1> 
-          </div>
+		<div class="row marginBottom">
+			<div class="col-md-4 marginTop">
+				<h2><span class="glyphicon glyphicon-usd"></span> Negotiation</h2>
+				<p>Auctions are useful market making mechanisms to discover the right price and interested party. Companies often face the challenge to find right buyer or supplier and get the best purchase deal from both sides. Traditional auction houses collect payments, distribute auctioned goods, and act as mediators between buyers and sellers. Manual process has several disadvantages: higher cost, longer lead time consumed in negotiations and limited reach for suppliers or buyers. An e-auction offers a centralised platform that allows listings, creating auction ads, brings in interested parties from anywhere, and, discovers the right price in an open, participatory and completely transparent manner.</p>
 
-          <div class="row marginBottom">
-              <div class="col-md-4 marginTop">
-                <h2><span class="glyphicon glyphicon-usd"></span> Negotiation</h2>
-                <p>Auctions are useful market making mechanisms to discover the right price and interested party. Companies often face the challenge to find right buyer or supplier and get the best purchase deal from both sides. Traditional auction houses collect payments, distribute auctioned goods, and act as mediators between buyers and sellers. Manual process has several disadvantages: higher cost, longer lead time consumed in negotiations and limited reach for suppliers or buyers. An e-auction offers a centralised platform that allows listings, creating auction ads, brings in interested parties from anywhere, and, discovers the right price in an open, participatory and completely transparent manner.</p>
+				<p><a class="btn btn-default" href="#" role="button">More info.. &raquo;</a></p>
+			</div>
+			<div class="col-md-4 marginTop">
+				<h2><span class="glyphicon glyphicon-user"></span> Vendor Portal</h2>
+				<p>Over the years many companies have moved from a single vendor to multi-vendor platform to gain competitive advantage. In order to optimize inventory, organizations must maintain an information system to keep a track of the vendor history and the procurement process flow. Ensuring that correct vendor information is entered, and updating relevant contracts with new information in a timely manner are two major pain points of vendor management. To improve the vendor management process, it is important to identify new vendors to discover de-risk dependencies on incumbents, track and evaluate vendors on a regular basis. </p>
 
-                <p><a class="btn btn-default" href="#" role="button">More info.. &raquo;</a></p>
-              </div>
-              <div class="col-md-4 marginTop">
-                <h2><span class="glyphicon glyphicon-user"></span> Vendor Portal</h2>
-                <p>Over the years many companies have moved from a single vendor to multi-vendor platform to gain competitive advantage. In order to optimize inventory, organizations must maintain an information system to keep a track of the vendor history and the procurement process flow. Ensuring that correct vendor information is entered, and updating relevant contracts with new information in a timely manner are two major pain points of vendor management. To improve the vendor management process, it is important to identify new vendors to discover de-risk dependencies on incumbents, track and evaluate vendors on a regular basis. </p>
+				<p><a class="btn btn-default" href="#" role="button">More info.. &raquo;</a></p>
+			</div>
+			<div class="col-md-4 marginTop">
+				<h2><span class="glyphicon glyphicon-book"></span> RFX</h2>
+				<p>Traditionally Rfx is conducted via email, fax, telephone or other telecommunication means either for price or information enquires. Manual process has many disadvantages like handling and processing cost, loss of information, unstructured data, no centralised information to access. There is need to bring all the manual process to single platform called eRfx. The eRfx helps companies to organise and centralise the buying procedure. All the buying related data is stored in one place and can be accessed by any person and anytime. It helps buyer in comparing and evaluating supplier by the pool of data in e-Rfx. The more structured this information is, the easier it is to compare the suppliers.</p>
 
-                <p><a class="btn btn-default" href="#" role="button">More info.. &raquo;</a></p>
-              </div>
-              <div class="col-md-4 marginTop">
-                <h2><span class="glyphicon glyphicon-book"></span> RFX</h2>
-                <p>Traditionally Rfx is conducted via email, fax, telephone or other telecommunication means either for price or information enquires. Manual process has many disadvantages like handling and processing cost, loss of information, unstructured data, no centralised information to access. There is need to bring all the manual process to single platform called eRfx. The eRfx helps companies to organise and centralise the buying procedure. All the buying related data is stored in one place and can be accessed by any person and anytime. It helps buyer in comparing and evaluating supplier by the pool of data in e-Rfx. The more structured this information is, the easier it is to compare the suppliers.</p>
+				<p><a class="btn btn-default" href="#" role="button">More info.. &raquo;</a></p>
+			</div>
+		  </div>
+	  </div>
 
-                <p><a class="btn btn-default" href="#" role="button">More info.. &raquo;</a></p>
-              </div>
-          </div>
-      </div>
+	  <div class="container contentContainer">
+		<div class="row center">
+			<h1 class="center title">Customers & Benefits</h1> 
+		</div>
 
+		<div class="row marginBottom">
+			<div class="col-md-6 marginTop" id="customer-image">
+			</div>
+			<div class="col-md-6 marginTop">
+				<ul>
+					<li>Fully owned web Based technology.</li>
+					<li>Applications built on Open Source Technology, Low Product Cost , offering high ROI</li>
+					<li>Internal IT development teams, Customization</li>
+					<li>On-Demand,  Flexible Business Models. Licensed, SaaS, Cloud, fully Managed Models</li>
+					<li>Technology ISO 27001 : 2013  Certified</li>
+					<li>Validated by STQC (Independent software testing body under Ministry of IT, Govt of India) , CISA  certified</li>
+					<li>Conforms to CVC guidelines & IT Act,2000</li>
+					<li>Data Encryption, Secure 128bit SSL connection. PKI enabled.</li>
+					<li>ERP integration</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-    
-
-      <hr>
-
-      <footer>
-        <p>&copy; 2015 ePROCUR, Inc.</p>
-      </footer>
-    </div> <!-- /container -->
+	<div>
+		<hr>
+		<footer>
+			<p>&copy; 2015 ePROCUR, Inc.</p>
+		</footer>
+	</div> <!-- /container -->
 
 
   <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
